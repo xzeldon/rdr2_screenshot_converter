@@ -1,6 +1,6 @@
 # RDR2 Screenshot converter [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-Convert and save screenshots from rdr2 photo mode to JPEG format
+Convert and save photomode screenshots from Red Dead Redemption 2 to JPEG format.
 
 ![Imgur](https://i.imgur.com/ZGbmHYd.png)
 
