@@ -1,4 +1,4 @@
-# RDR2 Screensht converter [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+# RDR2 Screenshot converter [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 Convert and save screenshots from rdr2 photo mode to JPEG format
 
