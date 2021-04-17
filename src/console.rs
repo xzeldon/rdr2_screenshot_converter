@@ -67,26 +67,3 @@ pub fn set_ctrl_c_handler() {
     println!("> Exiting...");
     process::exit(0);
 }
-
-pub fn get_raw_command_line() -> String {
-    // use winapi::um::processenv::GetCommandLineW;
-
-    unsafe {
-        let line = GetCommandLineW();
-        
-        let mut cursor = line;
-        let mut length = 0;
-        while *cursor != 0 {
-            length += 1;
-            cursor = cursor.add(1);
-        }
-        let array: &[u16] = std::slice::from_raw_parts(line, length);
-        
-        String::from_utf16(array).expect("Invalid unicode")
-    }
-}
-
-#[link(name="kernel32")]
-extern "system" {
-    fn GetCommandLineW() -> *const u16;
-}
