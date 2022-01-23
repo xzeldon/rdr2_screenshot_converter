@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "core"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.2.1"
+serde = {version = "1.0.135", features = ["derive"]}
+winapi = {version = "0.3.9", features = ["consoleapi", "errhandlingapi", "fileapi", "handleapi", "processenv"]}

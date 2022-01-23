@@ -1,7 +1,5 @@
-mod buffertrim;
-mod console;
-
-use rdr2_screenshot_converter::Config;
+use cli::Config;
+use core::console;
 use std::env;
 
 fn main() {
@@ -15,7 +13,7 @@ fn main() {
 
     let _ansi_support = console::enable_ansi_support();
 
-    if let Err(e) = rdr2_screenshot_converter::run(config) {
+    if let Err(e) = cli::run(config) {
         eprintln!("{}", e);
     }
 
