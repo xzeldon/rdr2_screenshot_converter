@@ -4,8 +4,6 @@ Convert and save photomode screenshots from Red Dead Redemption 2 to JPEG format
 
 ![Imgur](https://i.imgur.com/ZGbmHYd.png)
 
-Mirror on my [<img src="https://git.zeldon.ru/assets/img/logo.svg" align="center" width="20" height="20"/> Git](https://git.zeldon.ru/zeldon/rdr2_screenshot_converter)
-
 ## QuickStart
 
 Just [download](https://github.com/xzeldon/rdr2_screenshot_converter/releases) the executable file from releases and run it. It will automatically find your screenshots and save them.
